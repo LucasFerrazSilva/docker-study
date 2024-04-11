@@ -29,7 +29,7 @@ public class TestController {
     @PostMapping
     public String testPost() {
         User user = new User();
-        user.setName("Nome Usuario1234");
+        user.setName("Nome Usuario1234 ");
         userRepository.save(user);
         return "Usuario inserido";
     }
